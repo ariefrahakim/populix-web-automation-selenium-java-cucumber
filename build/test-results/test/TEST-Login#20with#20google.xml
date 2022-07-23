@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Login with google" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-07-23T15:17:44" hostname="DESKTOP-RDQV5OE" time="2.633">
+  <properties/>
+  <testcase name="user click google button" classname="Login with google" time="1.912"/>
+  <testcase name="user navigate to google" classname="Login with google" time="0.067"/>
+  <testcase name="classMethod" classname="Login with google" time="5.562"/>
+  <system-out><![CDATA[
+@Web @LoginWithGoogle
+Scenario: Login with google    ?[90m# src/test/resources/features/login.feature:22?[0m
+Success Landing Google
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 28321
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 23, 2022 10:17:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Login with facebook" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-07-23T15:17:38" hostname="DESKTOP-RDQV5OE" time="3.045">
+  <properties/>
+  <testcase name="user click facebook button" classname="Login with facebook" time="2.339"/>
+  <testcase name="user navigate to facebook" classname="Login with facebook" time="0.054"/>
+  <testcase name="classMethod" classname="Login with facebook" time="5.911"/>
+  <system-out><![CDATA[
+@Web @LoginWithFacebook
+Scenario: Login with facebook    ?[90m# src/test/resources/features/login.feature:17?[0m
+Success Landing Facebook
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 39494
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 23, 2022 10:17:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>

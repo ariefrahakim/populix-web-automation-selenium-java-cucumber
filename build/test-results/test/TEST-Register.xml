@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Register" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-07-23T15:17:50" hostname="DESKTOP-RDQV5OE" time="2.315">
+  <properties/>
+  <testcase name="user click register button" classname="Register" time="1.555"/>
+  <testcase name="user navigate to register page" classname="Register" time="0.081"/>
+  <testcase name="classMethod" classname="Register" time="5.12"/>
+  <system-out><![CDATA[
+@Web @Register
+Scenario: Register                    ?[90m# src/test/resources/features/login.feature:27?[0m
+Success Landing Register Page
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 8245
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 23, 2022 10:17:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>

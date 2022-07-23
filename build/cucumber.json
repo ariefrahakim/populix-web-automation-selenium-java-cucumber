@@ -1,0 +1,579 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-23T15:17:02.762Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4435000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "demo.hooks.WebdriverHooks.initializeWebdriver()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Login",
+        "description": "",
+        "id": "login-feature;login;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 700000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "demo.hooks.WebdriverHooks.quitWebdriver(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 436000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user input \"qa\" and \"engineer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"qa\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"engineer\"",
+                  "offset": 20
+                }
+              ],
+              "location": "demo.steps_definition.LoginStep.inputUsernameAndPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 621000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click show hidden password",
+            "match": {
+              "location": "demo.steps_definition.LoginStep.clickShowHiddenPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 724000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click login button",
+            "match": {
+              "location": "demo.steps_definition.LoginStep.clickButtonLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5053000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user success login",
+            "match": {
+              "location": "demo.steps_definition.LoginStep.isSuccessLogin()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Web"
+          },
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-23T15:17:14.841Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2937000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "demo.hooks.WebdriverHooks.initializeWebdriver()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Login",
+        "description": "",
+        "id": "login-feature;login;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 672000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "demo.hooks.WebdriverHooks.quitWebdriver(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 421000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user input \"\" and \"engineer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"engineer\"",
+                  "offset": 18
+                }
+              ],
+              "location": "demo.steps_definition.LoginStep.inputUsernameAndPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 616000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click show hidden password",
+            "match": {
+              "location": "demo.steps_definition.LoginStep.clickShowHiddenPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 608000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click login button",
+            "match": {
+              "location": "demo.steps_definition.LoginStep.clickButtonLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5031000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user success login",
+            "match": {
+              "location": "demo.steps_definition.LoginStep.isSuccessLogin()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Web"
+          },
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-23T15:17:25.143Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3539000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "demo.hooks.WebdriverHooks.initializeWebdriver()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Login",
+        "description": "",
+        "id": "login-feature;login;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 673000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "demo.hooks.WebdriverHooks.quitWebdriver(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 377000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user input \"qa\" and \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"qa\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 20
+                }
+              ],
+              "location": "demo.steps_definition.LoginStep.inputUsernameAndPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 597000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click show hidden password",
+            "match": {
+              "location": "demo.steps_definition.LoginStep.clickShowHiddenPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 602000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click login button",
+            "match": {
+              "location": "demo.steps_definition.LoginStep.clickButtonLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5062000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user success login",
+            "match": {
+              "location": "demo.steps_definition.LoginStep.isSuccessLogin()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Web"
+          },
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-23T15:17:36.014Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2849000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "demo.hooks.WebdriverHooks.initializeWebdriver()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Login with facebook",
+        "description": "",
+        "id": "login-feature;login-with-facebook",
+        "after": [
+          {
+            "result": {
+              "duration": 653000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "demo.hooks.WebdriverHooks.quitWebdriver(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2337000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user click facebook button",
+            "match": {
+              "location": "demo.steps_definition.LoginStep.clickFacebookLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user navigate to facebook",
+            "match": {
+              "location": "demo.steps_definition.LoginStep.navigateToFacebook()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Web"
+          },
+          {
+            "name": "@LoginWithFacebook"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-23T15:17:41.908Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2926000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "demo.hooks.WebdriverHooks.initializeWebdriver()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Login with google",
+        "description": "",
+        "id": "login-feature;login-with-google",
+        "after": [
+          {
+            "result": {
+              "duration": 652000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "demo.hooks.WebdriverHooks.quitWebdriver(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1915000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user click google button",
+            "match": {
+              "location": "demo.steps_definition.LoginStep.clickGoogleLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user navigate to google",
+            "match": {
+              "location": "demo.steps_definition.LoginStep.navigateToGoogle()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Web"
+          },
+          {
+            "name": "@LoginWithGoogle"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-23T15:17:47.470Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2806000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "demo.hooks.WebdriverHooks.initializeWebdriver()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Register",
+        "description": "",
+        "id": "login-feature;register",
+        "after": [
+          {
+            "result": {
+              "duration": 679000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "demo.hooks.WebdriverHooks.quitWebdriver(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1555000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user click register button",
+            "match": {
+              "location": "demo.steps_definition.LoginStep.clickRegister()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 86000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user navigate to register page",
+            "match": {
+              "location": "demo.steps_definition.LoginStep.navigateToRegisterPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Web"
+          },
+          {
+            "name": "@Register"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-23T15:17:52.601Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3089000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "demo.hooks.WebdriverHooks.initializeWebdriver()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Forgot password",
+        "description": "",
+        "id": "login-feature;forgot-password",
+        "after": [
+          {
+            "result": {
+              "duration": 651000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "demo.hooks.WebdriverHooks.quitWebdriver(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 651000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user click forgot password",
+            "match": {
+              "location": "demo.steps_definition.LoginStep.clickForgotPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 75000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user navigate to forgot password",
+            "match": {
+              "location": "demo.steps_definition.LoginStep.navigateToForgotPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Web"
+          },
+          {
+            "name": "@ForgotPassword"
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": [
+      {
+        "name": "@Web",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

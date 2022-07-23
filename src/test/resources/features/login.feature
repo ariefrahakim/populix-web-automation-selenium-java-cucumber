@@ -1,13 +1,37 @@
 @Web
-Feature: login test examples data
+Feature: Login Feature
 
   @Login
-  Scenario Outline: Test Login
-    Given User input "<username>" and "<password>"
-    And User click button login
-    Then User success login
+  Scenario Outline: Login
+    And user input "<username>" and "<password>"
+    And user click show hidden password
+    And user click login button
+    Then user success login
     Examples:
-      | username        | password     |
-      | standard_user   | secret_sauce |
-      | locked_out_user | secret_sauce |
+      |   username      |  password      |
+      |   qa            | engineer       |
+      |                 | engineer       |
+      |   qa            |                |
+
+  @LoginWithFacebook
+  Scenario: Login with facebook
+    And user click facebook button
+    Then user navigate to facebook
+
+  @LoginWithGoogle
+  Scenario: Login with google
+    And user click google button
+    Then user navigate to google
+
+  @Register
+  Scenario: Register
+    And user click register button
+    Then user navigate to register page
+
+  @ForgotPassword
+  Scenario: Forgot password
+    And user click forgot password
+    Then user navigate to forgot password
+
+
 
